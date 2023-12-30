@@ -29,6 +29,14 @@ Select Start > Settings > System > Sound. In Sound settings, go to Input > Test 
 </p>
 </details>
 
+<details>
+<summary role="button">Ubuntu Linux Distributions</summary>
+<p>
+Open Settings > Sound. Under Input, verify the input device and turn the input volume up to 100%. Speak into the microphone while observing the small horizontal bar on the right. You should see this bar fill with color as you speak. Once you observe color in the bar, try Talon again. If you're still not getting the expected result, proceed to the next paragraph.
+</p>
+<p>Open Software & Updates, and check "Software restricted by copyright or legal issues (multiverse)." Then install `ubuntu-restricted-extras` and `pavucontrol` (PulseAudio Volume Control GUI). Restricted extras aren't always necessary. Feel free to try it without the restricted codecs installed. Open PulseAudio Volume Control. Under Input Devices, select your microphone and verify it's using the correct port. Now, turn the volume up on the Input Device, testing as you go. For example, a Sennheiser SC 30 USB ML headset uses the headset microphone port, and increasing the volume to 145% greatly improved Talon's accuracy for one user.</p>
+</details>
+
 If you are not receiving any sound input, check your ancillary microphone equipment (cables, interfaces, preamps, etc.).
 
 * Check your cables and connections.
